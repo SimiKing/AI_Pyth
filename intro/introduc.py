@@ -1,11 +1,11 @@
 
 
-# print("Hello World"," ", 1, 2, 3, sep='|', end='.', flush=True, )
+print("Hello World"," ", 1, 2, 3, sep=' |', end='.', flush=True, )
 
 """
 
 The print funtion outputs the values that it is given. It has a couple of arguments:
-*Separator (sep): This determines the sepatator between values passed to the print. The default is space " "- if no value is passed.
+*Separator (sep): This determines the sepatator between values passed to the print. The default is space " " if no value is passed.
 *end: Defines the end of the line parament. Default is the new line character. Always pass the new line character if another end parameter is defined.
 
 """
